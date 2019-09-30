@@ -1,0 +1,49 @@
+{
+  "name": "@alheimsins/pdf-make",
+  "version": "1.0.0",
+  "description": "High level api to pdfmake",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/*",
+    "fonts/*"
+  ],
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@gmail.com",
+    "url": "https://github.com/maccyber"
+  },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alheimsins/pdf-make.git"
+  },
+  "keywords": [
+    "pdf",
+    "pdfmake",
+    "pdfkit"
+  ],
+  "bugs": {
+    "url": "https://github.com/Alheimsins/pdf-make/issues"
+  },
+  "homepage": "https://github.com/Alheimsins/pdf-make#readme",
+  "license": "MIT",
+  "dependencies": {
+    "pdfmake": "0.1.60"
+  },
+  "devDependencies": {
+    "ava": "2.4.0",
+    "standard": "14.3.1"
+  }
+}
