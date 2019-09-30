@@ -1,18 +1,18 @@
 # pdf-make
 
-Highlevel API for [pdfmake](https://www.npmjs.com/package/pdfmake) - *PDF
+High-level API for [pdfmake](https://www.npmjs.com/package/pdfmake) - *PDF
 document generation library for server-side and client-side usage in pure
 JavaScript.*
 
 ## Installation
 
-```js
+```
 npm install @alheimsins/pdf-make
 ```
 
 ## Usage
 
-```
+```js
 (async () => {
   const pdfmake = require('@alheimsins/pdf-make')
   const fs = require('fs').promises
