@@ -1,0 +1,26 @@
+name: Build, Test, and Publish on release
+on: release
+types:
+  - published
+branches:
+  - master
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Build
+      uses: actions/npm@master
+      with:
+        args: install
+    - name: Test
+      uses: actions/npm@master
+      with:
+        args: test
+    - name: Publish
+      uses: actions/npm@master
+      env:
+        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      with:
+        args: publish --access public
