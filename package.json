@@ -40,7 +40,7 @@
   "homepage": "https://github.com/Alheimsins/pdf-make#readme",
   "license": "MIT",
   "dependencies": {
-    "pdfmake": "0.1.61"
+    "pdfmake": "0.1.62"
   },
   "devDependencies": {
     "ava": "2.4.0",
