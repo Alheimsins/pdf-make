@@ -43,7 +43,7 @@
     "pdfmake": "0.1.65"
   },
   "devDependencies": {
-    "ava": "3.5.1",
+    "ava": "3.5.2",
     "standard": "14.3.3"
   }
 }
