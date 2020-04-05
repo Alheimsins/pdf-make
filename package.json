@@ -45,5 +45,8 @@
   "devDependencies": {
     "ava": "3.5.2",
     "standard": "14.3.3"
+  },
+  "engines": {
+    "node": ">=12.16.1"
   }
 }
