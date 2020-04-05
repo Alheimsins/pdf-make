@@ -4,7 +4,8 @@
   "description": "High-level API for pdfmake PDF document generation library",
   "main": "src/index.js",
   "scripts": {
-    "test": "standard && ava"
+    "test": "standard && ava",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
   },
   "publishConfig": {
     "access": "public"
