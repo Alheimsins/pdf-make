@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/Alheimsins/pdf-make.svg?branch=master)](https://travis-ci.com/Alheimsins/pdf-make)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # pdf-make
 
 High-level API for [pdfmake](https://www.npmjs.com/package/pdfmake) - *PDF
