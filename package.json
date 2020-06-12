@@ -1,6 +1,6 @@
 {
   "name": "@alheimsins/pdf-make",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "High-level API for pdfmake PDF document generation library",
   "main": "src/index.js",
   "scripts": {
