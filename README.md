@@ -10,7 +10,7 @@ JavaScript.*
 ## Installation
 
 ```
-npm install @alheimsins/pdf-make
+$ npm install @alheimsins/pdf-make
 ```
 
 ## Usage
