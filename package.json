@@ -44,7 +44,7 @@
     "pdfmake": "0.1.67"
   },
   "devDependencies": {
-    "ava": "3.10.1",
+    "ava": "3.11.0",
     "standard": "14.3.4"
   },
   "engines": {
