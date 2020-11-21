@@ -2,6 +2,18 @@ const PdfPrinter = require('pdfmake')
 const path = require('path')
 
 const fonts = {
+  Nunito: {
+    normal: path.join(__dirname, '..', 'fonts/Nunito/Nunito-Regular.ttf'),
+    bold: path.join(__dirname, '..', 'fonts/Nunito/Nunito-Bold.ttf'),
+    italics: path.join(__dirname, '..', 'fonts/Nunito/Nunito-RegularItalic.ttf'),
+    bolditalics: path.join(__dirname, '..', 'fonts/Nunito/Nunito-BoldItalic.ttf')
+  },
+  'Nunito Sans': {
+    normal: path.join(__dirname, '..', 'fonts/Nunito_Sans/NunitoSans-Regular.ttf'),
+    bold: path.join(__dirname, '..', 'fonts/Nunito_Sans/NunitoSans-Bold.ttf'),
+    italics: path.join(__dirname, '..', 'fonts/Nunito_Sans/NunitoSans-RegularItalic.ttf'),
+    bolditalics: path.join(__dirname, '..', 'fonts/Nunito_Sans/NunitoSans-BoldItalic.ttf')
+  },
   Roboto: {
     normal: path.join(__dirname, '..', 'fonts/Roboto-Regular.ttf'),
     bold: path.join(__dirname, '..', 'fonts/Roboto-Medium.ttf'),
