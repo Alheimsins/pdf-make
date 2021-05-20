@@ -1,5 +1,6 @@
 const PdfPrinter = require('pdfmake')
 const path = require('path')
+const format = require('./format')
 
 const fonts = {
   Nunito: {
@@ -58,11 +59,13 @@ const getDoc = pdfDoc => {
   })
 }
 
-module.exports = doc => {
+module.exports = (doc, options) => {
   if (!doc) {
     throw Error('Missing required input: content')
   }
-
-  const pdfDoc = printer.createPdfKitDocument(doc)
+  let pdfDoc = printer.createPdfKitDocument(doc)
+  if (options) {
+    pdfDoc = format(pdfDoc, options)
+  }
   return getDoc(pdfDoc)
 }
