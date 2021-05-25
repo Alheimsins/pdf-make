@@ -42,7 +42,7 @@ $ npm install @alheimsins/pdf-make
 })()
 ```
 
-### PDF A2
+### PDF/A-2B
 
 ```js
 (async () => {
@@ -55,8 +55,8 @@ $ npm install @alheimsins/pdf-make
     ]
   }
   const options = {
-    type: 'A',
-    version: '2'
+    type: '2',
+    version: 'B'
   }
 
   // Creates PDF buffer
