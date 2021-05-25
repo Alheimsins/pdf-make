@@ -8,8 +8,8 @@
     ]
   }
   const options = {
-    type: 'A',
-    version: '2'
+    type: '2',
+    version: 'B'
   }
 
   // Creates PDF buffer
